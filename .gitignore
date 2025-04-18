@@ -1,0 +1,31 @@
+# person_detector_hog_svm/.gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Output directories
+output/
+prepared_data/ # Если вы решите хранить их вне output
+features/      # Если вы решите хранить их вне output
+models/        # Если вы решите хранить их вне output
+detections/    # Если вы решите хранить их вне output
+
+# Data directory (обычно большие данные не версионируют)
+data/person-detection-10k/
+
+# Environment specific files
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE / Editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo

@@ -1,0 +1,10 @@
+# person_detector_hog_svm/requirements.txt
+numpy
+opencv-python
+scikit-learn
+joblib
+tqdm # Для индикаторов прогресса
+imutils
+fastapi # <-- Добавлено
+uvicorn[standard] # <-- Добавлено (включает доп. зависимости для лучшей производительности)
+python-multipart # <-- Добавлено (для загрузки файлов)
