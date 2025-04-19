@@ -18,30 +18,7 @@
 ## Структура Проекта
 
 
-person_detector_hog_svm/
-├── data/ # Данные (YOLO формат, не в репо)
-│ └── person-detection-10k/ # Пример структуры
-│ ├── train/ (images/, labels/)
-│ ├── val/ (images/, labels/)
-│ └── test/ (images/, labels/)
-├── output/ # Генерируемые файлы (создается авто)
-│ ├── prepared_data/ # Нарезанные сэмплы (+/-)
-│ ├── features/ # HOG-признаки (.npy)
-│ ├── models/ # Модель SVM (.joblib), параметры HOG (.json)
-│ └── detections/ # Результаты детекции (картинки)
-├── scripts/ # Скрипты для запуска
-│ ├── 1_prepare_data.py # Подготовка данных
-│ ├── 2_train_model.py # Обучение (HOG + SVM)
-│ └── 3_run_detection.py # Детекция на тесте + MAE
-├── src/ # Исходный код (модули)
-│ ├── config.py # Конфигурация (пути, параметры HOG/SVM/детекции)
-│ ├── data_preparation.py # Нарезка сэмплов
-│ ├── feature_extraction.py # Расчет HOG
-│ ├── training.py # Обучение SVM
-│ ├── detection.py # Логика детекции
-│ └── utils.py # Вспомогательные функции
-├── api_fastapi.py # FastAPI приложение
-└── README.md # Этот файл
+![изображение](https://github.com/user-attachments/assets/c533b409-2b18-47f9-bf56-f2fa69e57c23)
 
 ## Требования
 
