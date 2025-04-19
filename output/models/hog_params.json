@@ -1,0 +1,26 @@
+{
+    "winSize": [
+        64,
+        128
+    ],
+    "blockSize": [
+        16,
+        16
+    ],
+    "blockStride": [
+        8,
+        8
+    ],
+    "cellSize": [
+        8,
+        8
+    ],
+    "nbins": 9,
+    "derivAperture": 1,
+    "winSigma": -1.0,
+    "histogramNormType": 0,
+    "L2HysThreshold": 0.2,
+    "gammaCorrection": true,
+    "nlevels": 64,
+    "signedGradients": true
+}
